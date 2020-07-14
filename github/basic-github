@@ -12,8 +12,9 @@ Buổi 1: Train github
 
 --> giải thích về git push -u
 - thực chất chạy lệnh git push origin master cũng được nhưng vì sao lại dùng -u (--set-upstream)
-nên dùng git push -u cho lần đâu push vì nó sẽ giúp cho nhưng lần sau khi bạn gọi git push/ git pull thì không cần phải thêm "origin master nữa"
-tương tự với branch(nhánh) khi push lần đầu cũng có thể dùng -u lần sau đỡ phải gọi tên branch
+nên dùng git push -u cho lần đâu push vì nó sẽ giúp cho những lần sau khi bạn gọi git push/ git pull thì không cần phải thêm "origin master nữa"
+tương tự với branch(nhánh) khi push lần đầu cũng có thể dùng -u lần sau đỡ phải gọi tên branch, ví dụ nhánh mới là develop lần đâu tiên được tạo và cần được 
+push code lên thì có thể dùng git push -u origin develop cho lần đầu để lần sau không phải thêm origin develop khi dùng lệnh git pull/ git push nữa  
 
 - Một vài lệnh
  + để cập nhật code trên github khi có thay đổi code ở máy local thì dùng:
