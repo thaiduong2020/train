@@ -1,0 +1,24 @@
+Buổi 1: Train github
+- Target: hiểu được cách dùng ở mức cơ bản
+
+- Download: https://git-scm.com/downloads
+
+- Cách để push source ở dưới máy local lên trên repo github
+1. vào đúng source cần push lên mở cmd lên chạy lệnh git init để khởi git vào source đó
+2. git remote add origin : add link repo github vào git local của source hiện tại ,ví dụ: git remote add origin https://github.com/thaiduong2020/shop-cart.git
+3. git push -u origin master
+
+- Một vài lệnh
+ + để cập nhật code trên github khi có thay đổi code ở máy local thì dùng:
+  1. git add .
+  2. git commit -m "mo ta"
+  3. git push origin toi-cai-nhanh-can-push
+ + để tạo 1 nhánh và đồng thời nhảy qua nhánh đó
+  1. git checkout -b "ten-nhanh-muon-tao"
+ + để qua 1 nhánh đã tồn tại
+  1. git checkout ten-nhanh
+ + để kéo list branch mới nhất về git local 
+  1. git fetch
+ + để kéo code mới nhất của 1 branch
+  1. git pull origin ten-branch
+  
