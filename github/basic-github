@@ -6,7 +6,9 @@ Buổi 1: Train github
 - Cách để push source ở dưới máy local lên trên repo github
 1. vào đúng source cần push lên mở cmd lên chạy lệnh git init để khởi git vào source đó
 2. git remote add origin : add link repo github vào git local của source hiện tại ,ví dụ: git remote add origin https://github.com/thaiduong2020/shop-cart.git
-3. git push -u origin master
+3. git add .
+4. git commit -m "mo ta"
+5. git push -u origin master
 
 - Một vài lệnh
  + để cập nhật code trên github khi có thay đổi code ở máy local thì dùng:
