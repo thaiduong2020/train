@@ -10,6 +10,11 @@ Buổi 1: Train github
 4. git commit -m "mo ta"
 5. git push -u origin master
 
+--> giải thích về git push -u
+- thực chất chạy lệnh git push origin master cũng được nhưng vì sao lại dùng -u (--set-upstream)
+nên dùng git push -u cho lần đâu push vì nó sẽ giúp cho nhưng lần sau khi bạn gọi git push/ git pull thì không cần phải thêm "origin master nữa"
+tương tự với branch(nhánh) khi push lần đầu cũng có thể dùng -u lần sau đỡ phải gọi tên branch
+
 - Một vài lệnh
  + để cập nhật code trên github khi có thay đổi code ở máy local thì dùng:
   1. git add .
